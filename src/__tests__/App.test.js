@@ -26,7 +26,7 @@ it('should render the application', async () => {
 
   await waitForElement(() => [
     expect(getByText('Hacker news Stories')).toBeTruthy(),
-    expect(getByText('Tarnished: Google Responds')).toBeTruthy(),
-    expect(queryByTestId('story-by').textContent).toEqual('by: Karl Hadwen'),
+    expect(getByText('Web Development: React.js stuff')).toBeTruthy(),
+    expect(queryByTestId('story-by').textContent).toEqual('by: Davi Pereira'),
   ]);
 });

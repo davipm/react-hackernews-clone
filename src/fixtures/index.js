@@ -1,9 +1,9 @@
 export const singularStory = {
-  by: 'Karl Hadwen',
+  by: 'Davi Pereira',
   id: 1,
   time: 1567209822,
-  title: 'Tarnished: Google Responds',
-  url: 'https://something.com/hackernewstut',
+  title: 'Web Development: React.js stuff',
+  url: 'https://davipereira.surge.sh',
 };
 
 export const storyIds = [1];

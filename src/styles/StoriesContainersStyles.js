@@ -17,8 +17,11 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1;
     color: #202020;
     background-color: #fafafe;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    text-align: left;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
   }
   
   ul {
