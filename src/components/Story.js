@@ -8,6 +8,7 @@ function Story({ storyId }) {
 
   useEffect(() => {
     getStory(storyId).then(data => data && data.url && setStory(data));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   
   return (
